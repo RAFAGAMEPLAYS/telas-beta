@@ -95,10 +95,10 @@ padding-bottom: 5px;
 }
 .cards{
       display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-  gap: 70px; /* aqui você pode aumentar sem medo */
-  max-width: 700px; /* largura máxima do grid */
-  margin: 40px auto; /* centraliza na tela */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 70px; 
+  max-width: 700px; 
+  margin: 40px auto; 
   justify-content: center;
     margin-top: 5%;
       row-gap: 40px; 
@@ -211,7 +211,7 @@ footer{
  border: 2px solid #7181cb ;
 }
 
-/* Títulos de cada pergunta */
+
 .pergunta {
   margin-bottom: 20px;
 }
@@ -228,7 +228,7 @@ footer{
 input[type="radio"],
 input[type="checkbox"] {
   margin-right: 8px;
-  accent-color: #7181cb; /* deixa botões na cor principal */
+  accent-color: #7181cb; 
 }
 
 select {
@@ -383,11 +383,11 @@ button:hover {
     list-style: none;
 }
 .dicas ul li::before {
-      content: "\2022"; /* Caractere de um ponto (bullet) */
-      color:#7181cb ; /* Mude para a cor desejada, por exemplo, azul */
+      content: "\2022"; 
+      color:#7181cb ; 
       display: inline-block;
-      width: 1em; /* Ajuste a largura do marcador */
-      margin-left: -1em; /* Ajuste para alinhamento */
+      width: 1em; 
+      margin-left: -1em; 
     }
  .dicass h2 span{
     border-bottom:2px solid #7181cb ;
@@ -404,11 +404,11 @@ button:hover {
     list-style: none;
 }
 .dicass ul li::before {
-      content: "\2022"; /* Caractere de um ponto (bullet) */
-      color:#7181cb ; /* Mude para a cor desejada, por exemplo, azul */
+      content: "\2022"; 
+      color:#7181cb ; 
       display: inline-block;
-      width: 1em; /* Ajuste a largura do marcador */
-      margin-left: -1em; /* Ajuste para alinhamento */
+      width: 1em; /
+      margin-left: -1em; /
     }
    
     .texto-principall a {
@@ -417,11 +417,11 @@ button:hover {
   font-size: 18px;
   background-color: #7181cb;
   color: white;
-  padding: 12px 28px;   /* aumenta o tamanho */
+  padding: 12px 28px;   
   border-radius: 30px;
   font-weight: bold;
-  min-width: 160px;     /* garante largura mínima */
-  text-align: center;   /* centraliza o texto */
+  min-width: 160px;     
+  text-align: center;   
   transition: background 0.3s;
 }
 .texto-principal a {
@@ -430,13 +430,14 @@ button:hover {
   font-size: 18px;
   background-color: #7181cb;
   color: white;
-  padding: 12px 28px;   /* aumenta o tamanho */
+  padding: 12px 28px;   
   border-radius: 30px;
   font-weight: bold;
-  min-width: 160px;     /* garante largura mínima */
-  text-align: center;   /* centraliza o texto */
+  min-width: 160px;     
+  text-align: center;   
   transition: background 0.3s;
 }
 
     
+
     
